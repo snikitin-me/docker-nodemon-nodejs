@@ -1,0 +1,14 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "start.dev": "nodemon -L src/index.js",
+    "start.debug": "nodemon -L --inspect=0.0.0.0 src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
